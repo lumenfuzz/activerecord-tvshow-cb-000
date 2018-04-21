@@ -6,5 +6,3 @@ class Show < ActiveRecord::Base
   end
 
 end
-
-  binding.pry
