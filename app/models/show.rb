@@ -1,4 +1,3 @@
-require 'pry'
 class Show < ActiveRecord::Base
   attr_accessor :season
 
