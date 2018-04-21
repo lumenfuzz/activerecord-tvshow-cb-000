@@ -2,7 +2,7 @@ require 'pry'
 class Show < ActiveRecord::Base
   attr_accessor :season
 
-  def highest_rating
+  def self.highest_rating
   end
 
 end
