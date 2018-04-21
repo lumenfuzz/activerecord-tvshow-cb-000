@@ -19,4 +19,12 @@ class Show < ActiveRecord::Base
     Show.find_by(rating: rating)
   end
 
+  def self.ratings_sum
+    sum = 0
+    Show.all.each do |show|
+      sum += show.rating
+    end
+    sum
+  end
+
 end
